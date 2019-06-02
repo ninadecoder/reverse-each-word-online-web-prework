@@ -5,6 +5,6 @@ def reverse_each_word(text)
     x.reverse!
   end
 
-  puts newText.join(' ')
+  return newText.join(' ')
 
 end
