@@ -9,3 +9,14 @@ def reverse_each_word(text)
 
 end
 
+def reverse_each_word(text)
+  newText = text.split 
+
+  newText.collect do | x |
+    x.reverse!
+  end
+
+  return newText.join(' ')
+
+end
+
